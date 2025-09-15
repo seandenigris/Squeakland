@@ -1,0 +1,1580 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd ">
+
+<html>
+<head>
+<meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+<!--[if lte IE 6]>
+   <script type="text/javascript" src="/sm/includes/supersleight.js"></script>
+   <![endif]-->
+<script src="../jsapi.html" type="text/javascript">
+</script>
+<script type="text/javascript">
+  google.load("language", "1");
+
+  function translate( pContainerName )
+  {
+     var container = document.getElementById( pContainerName );
+     google.language.translate( container.innerHTML, "", "en",  
+        function(result)
+        {
+           if (!result.error)
+           {
+              container.innerHTML = result.translation + "&nbsp;<span class='googleTranslateMarker'>[<a href='http://translate.google.com'>GT</a>]</span>";
+           }
+        });
+  }
+
+   function translateToggle( pContainerName )
+   {
+   }
+
+</script>
+<title> squeakland : squeakers </title>
+<link href="../sm/includes/sm-default.css" rel="stylesheet" type="text/css"/>
+<link href="../includes/styles.css" rel="stylesheet" type="text/css"/>
+<link href="../images/favicon.png" rel="shortcut icon"/>
+<meta content="Etoys is an educational tool for teaching children powerful ideas in compelling ways.  Etoys is a media-rich authoring environment and visual programming system." name="description"/>
+<meta content="squeak,etoys,olpc,xo,alan kay,viewpoints,science,math,visual programming,papert,constructionism" name="keywords"/>
+<meta content="iLSJv7DYRXHf6om4I_AW8cUlaOXo0jx7-ub-cidVvXA" name="google-site-verification">
+</meta></head>
+<body>
+<map id="actionNavMap" name="actionNavMap">
+<area alt="download" coords=" 52, 0, 118, 17" href="../download/index.html" shape="rect" title="download"/>
+<area alt="contact" coords="132, 0, 187, 17" href="../contact/index.html" shape="rect" title="contact"/>
+<area alt="donate" coords="199, 0, 250, 17" href="../donate/index.html" shape="rect" title="donate"/>
+<area alt="discuss" coords="262, 0, 313, 17" href="../discuss/index.html" shape="rect" title="discuss"/>
+<area alt="subscribe" coords="327, 0, 389, 17" href="../subscribe/index.html" shape="rect" title="subscribe"/>
+</map>
+<map id="mainNavMap" name="mainNavMap">
+<area alt="About" coords=" 19, 7,  69, 27" href="../about/index.html" shape="rect" title="About"/>
+<area alt="Tutorials" coords=" 75, 7, 140, 27" href="../tutorials/index.html" shape="rect" title="Tutorials"/>
+<area alt="Resources" coords="147, 7, 223, 27" href="../resources/index.html" shape="rect" title="Resources"/>
+<area alt="Showcase" coords="231, 7, 304, 27" href="../showcase/index.html" shape="rect" title="Showcase"/>
+<area alt="News" coords="312, 7, 354, 27" href="../news/index.html" shape="rect" title="News"/>
+</map>
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="canvas" width="857">
+<!-- fwtable fwsrc="design16-content.png" fwpage="Page 1" fwbase="mockup.png" fwstyle="Dreamweaver" fwdocid = "1021545101" fwnested="0" -->
+<tr>
+<td>
+<div class="logo"><a href="../index.html"><img border="0" height="161" src="../images/logo.png" width="368"/></a></div>
+<img alt="" border="0" height="1" src="../images/spacer.gif" width="100">
+</img></td>
+<td><img alt="" border="0" height="1" src="../images/spacer.gif" width="10"/></td>
+<td><img alt="" border="0" height="1" src="../images/spacer.gif" width="275"/></td>
+<td><img alt="" border="0" height="1" src="../images/spacer.gif" width="19"/></td>
+<td><img alt="" border="0" height="1" src="../images/spacer.gif" width="368"/>
+<div class="adminMiniMenu">
+<table align="right" cellspacing="0">
+<tr>
+<td><a href="../index.html" target="_blank">bugs</a></td>
+<td><a href="../index.html" target="_blank">wiki</a></td>
+<td>
+<a href="../sm/login.jsp">login</a>
+</td>
+<td>
+<form action="/action/chooseLanguage" method="POST" name="languageForm">
+<select name="langKey" onchange="this.form.submit()">
+<option value="fr">Franais</option>
+<option value="pt">Portugus</option>
+<option selected="selected" value="en">English</option>
+<option value="es">Espaol</option>
+</select>
+</form>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td><img alt="" border="0" height="1" src="../images/spacer.gif" width="19"/></td>
+<td><img alt="" border="0" height="1" src="../images/spacer.gif" width="11"/></td>
+<td><img alt="" border="0" height="1" src="../images/spacer.gif" width="55"/></td>
+<td><img alt="" border="0" height="1" src="../images/spacer.gif" width="1"/></td>
+</tr>
+<tr>
+<td colspan="8"><img alt="" border="0" height="63" src="../images/spacer.gif" width="857"/></td>
+<td><img alt="" border="0" height="63" src="../images/spacer.gif" width="1"/></td>
+</tr>
+<tr>
+<td rowspan="6"><img alt="" border="0" height="443" src="../images/spacer.gif" width="100"/></td>
+<td colspan="2" rowspan="4"><img alt="" border="0" height="95" id="logoBack" name="logoBack" src="../images/logoBack.png" width="285"/></td>
+<td colspan="4"><img alt="" border="0" height="17" id="actionNav" name="actionNav" src="../images/actionNav.png" usemap="#actionNavMap" width="417"/></td>
+<td rowspan="6"><img alt="" border="0" height="443" src="../images/spacer.gif" width="55"/></td>
+<td><img alt="" border="0" height="17" src="../images/spacer.gif" width="1"/></td>
+</tr>
+<tr>
+<td rowspan="3"><img alt="" border="0" height="78" id="navLeft" name="navLeft" src="../images/navLeft.png" width="19"/></td>
+<td><img alt="" border="0" height="29" id="navTop" name="navTop" src="../images/mainNav.png" usemap="#mainNavMap" width="368"/></td>
+<td colspan="2" rowspan="3"><img alt="" border="0" height="78" id="navRight" name="navRight" src="../images/navRight.png" width="30"/></td>
+<td><img alt="" border="0" height="29" src="../images/spacer.gif" width="1"/></td>
+</tr>
+<tr>
+<td style="background: url(/images//subNav.png) no-repeat;">
+<div class="subNav">
+</div>
+</td>
+<td><img alt="" border="0" height="19" src="../images/spacer.gif" width="1"/></td>
+</tr>
+<tr>
+<td><img alt="" border="0" height="30" id="navBottom" name="navBottom" src="../images/navBottom.png" width="368"/></td>
+<td><img alt="" border="0" height="30" src="../images/spacer.gif" width="1"/></td>
+</tr>
+<tr>
+<td style="vertical-align: top; background: url( /images//canvasLeftStretch.png );"><img alt="" border="0" height="346" id="canvasLeft" name="canvasLeft" src="../images/canvasLeft.png" width="10"/></td>
+<td class="content" colspan="4" style="vertical-align: top; background: white url( /images//content.png ) no-repeat;">
+<br/>
+<table class="articleTable">
+<td class="articleContentColumn" colspan="3">
+<h1 id="title7154">
+               
+                  Are you a Squeaker?
+               
+               
+            </h1>
+<div class="articleBody" id="body7154">
+
+               
+               
+
+               
+               
+
+               
+               
+
+               
+               A "squeaker" is someone who likes Etoys or Squeak.<br/>
+<br/>
+Etoys is a tool for teaching powerful ideas in<br/>
+compelling ways. It makes your thinking visible!<br/>
+<br/>
+To see Etoys in action, read our <a href="../about/intro.html">introduction</a>, <br/>
+try the <a href="../download.html">download</a>, and explore our <a href="../showcase/index.html">showcase</a>.<br/>
+</div>
+</td>
+</table></td></tr>
+</table>
+<table class="articleTable">
+<td class="articleContentColumn" colspan="3">
+<h2 id="title7155">
+               
+                  Squeaker List
+               
+               
+            </h2>
+<div class="articleBody" id="body7155">
+
+               
+               
+
+               
+               
+
+               
+               
+
+               
+               Below you'll find a sampling of the Squeakers around the world. <br/>
+If you're a Squeaker like us, add your name to let us know.<br/>
+</div>
+</td>
+
+</table>
+<!-- content start -->
+<div style="position:relative;">
+<div class="squeakerButton">
+<script language="javascript" src="../sm/includes/AC_RunActiveContent.js"></script>
+<script language="javascript">
+
+         var hasRequestedVersion = DetectFlashVer( 9, 0, 0 );
+
+         if( !hasRequestedVersion )
+         {
+            document.write( "<img src='/images/squeakIf-250.png' alt='Squeak if you like Etoys!' width='250' height='123' border='0' />" );
+         }
+         else
+         {
+            AC_FL_RunContent(
+               'base','/squeakers/',
+               'codebase', 'http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0',
+               'width', '250',
+               'height', '123',
+               'src', '/squeakers/squeakerButton',
+               'quality', 'high',
+               'pluginspage', 'http://www.macromedia.com/go/getflashplayer',
+               'align', 'middle',
+               'play', 'true',
+               'loop', 'true',
+               'scale', 'showall',
+               'wmode', 'transparent',
+               'devicefont', 'false',
+               'id', 'squeakerButton',
+               'bgcolor', '',
+               'name', 'squeakerButton',
+               'menu', 'true',
+               'allowFullScreen', 'false',
+               'allowScriptAccess','sameDomain',
+               'movie', '/squeakers/squeakerButton',
+               
+               'salign', ''
+               ); //end AC code
+         }
+      </script>
+<noscript>
+<img alt="Squeak if you like Etoys!" border="0" height="123" src="../images/squeakIf-250.png" width="250"/>
+</noscript>
+</div>
+</div>
+<!--
+<div style="position:relative;">
+   <div class="addYourNameButton">
+      <a href="/action/squeakerAdd"><img border='0' src='/images/addYourNameButton.png' alt="Add Your Name"></a>
+   </div>
+</div>
+-->
+<br/>
+<table border="0" class="squeakersListBarTable">
+<tr>
+<td align="right" width="5%"> <span class="listBar"><a href="index.html">Previous</a></span> </td>
+<td align="center" width="5%"> <span class="listBar">&lt;</span> </td>
+<td align="center" width="24%"><span class="listBar">31 - 60 of 356</span> </td>
+<td align="center" width="5%"> <span class="listBar">&gt;</span> </td>
+<td align="left" width="5%"> <span class="listBar"><a href="index.html">Next</a></span> </td>
+</tr>
+</table>
+<table class="squeakersTable">
+<tr>
+<td>
+<span class="name">Sandra F</span>
+<span class="location">
+            
+                from 
+            
+            
+
+            Canelones, 
+            Uruguay</span>
+<span class="since">(since 2011)</span>
+</td>
+<td align="right">
+<span class="date">2011-Jun-02</span>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<p id="body11004" onclick='translateToggle( "body" + 11004 )'>Considero que pemite muchas posibilidades sobre todo con la XO, es una manera de acercar a los nios a la programacin, adems de trabajar geometra,exponer trabajos empleando el libro,realizar animaciones,etc. </p>
+<script type="text/javascript"> translate( "body" + 11004 );</script>
+</td>
+</tr>
+</table>
+<table class="squeakersTable">
+<tr>
+<td>
+<span class="name">Hugo Aguilar Svonik</span>
+<span class="location">
+            
+                from 
+            
+            
+
+            Montevideo, 
+            Uruguay</span>
+<span class="since">(since 2011)</span>
+</td>
+<td align="right">
+<span class="date">2011-Jun-02</span>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<p id="body11003" onclick='translateToggle( "body" + 11003 )'></p>
+<script type="text/javascript"> translate( "body" + 11003 );</script>
+</td>
+</tr>
+</table>
+<table class="squeakersTable">
+<tr>
+<td>
+<span class="name">Raimundo de Oliveira Flix</span>
+<span class="location">
+            
+                from 
+            
+            
+
+            Novo Hamburgo, 
+            Brazil</span>
+<span class="since">(since 2011)</span>
+</td>
+<td align="right">
+<span class="date">2011-Jun-02</span>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<p id="body11002" onclick='translateToggle( "body" + 11002 )'>A minha experincia com Informtica Educativa  desde a linguagem Logo, com computadores de 8 bits... Faz 22 anos que trabalho com alunos desde a Educao Infnatil at o Ensino Fundamental.
+As possibilidades com o Squeak so maravilhosas. Porque, atravs de um ponto, posso proporcionar diversas experincias aos alunos, como conceitos Matemticos, descrio de movimentos, variveis, e claro, como toda criana, brincar com os objetos que esto ali presentes na tela.
+Grande abrao a tod@s,
+Raimundo Flix</p>
+<script type="text/javascript"> translate( "body" + 11002 );</script>
+</td>
+</tr>
+</table>
+<table class="squeakersTable">
+<tr>
+<td>
+<span class="name">Daniel Sancho Ehlert</span>
+<span class="location">
+            
+                from 
+            
+            
+
+            Rincn de la Victoria, 
+            Spain</span>
+<span class="since">(since 2005)</span>
+</td>
+<td align="right">
+<span class="date">2011-May-17</span>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<p id="body10982" onclick='translateToggle( "body" + 10982 )'>Herramienta ideal para ensear a pensar, para desarrollar ideas y estimular a los alumnos y alumnas.</p>
+<script type="text/javascript"> translate( "body" + 10982 );</script>
+</td>
+</tr>
+</table>
+<table class="squeakersTable">
+<tr>
+<td>
+<span class="name">Claudia</span>
+<span class="location">
+            
+                from 
+            
+            
+
+            Minas, 
+            Uruguay</span>
+<span class="since">(since 2009)</span>
+</td>
+<td align="right">
+<span class="date">2011-May-09</span>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<p id="body10964" onclick='translateToggle( "body" + 10964 )'>Porque ayuda a mantener la creatividad y la mente fresca. Tiene muchas herramientas que se le pueden dar un sinnmero de aplicaciones, sobretodo en la educacin para que favorezca los aprendizajes de los alumnos.</p>
+<script type="text/javascript"> translate( "body" + 10964 );</script>
+</td>
+</tr>
+</table>
+<table class="squeakersTable">
+<tr>
+<td>
+<span class="name">nolvia</span>
+<span class="location">
+</span>
+</td>
+<td align="right">
+<span class="date">2011-May-09</span>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<p id="body10961" onclick='translateToggle( "body" + 10961 )'></p>
+<script type="text/javascript"> translate( "body" + 10961 );</script>
+</td>
+</tr>
+</table>
+<table class="squeakersTable">
+<tr>
+<td>
+<span class="name">Olga</span>
+<span class="location">
+            
+                from 
+            
+            
+
+            Montevideo, 
+            Uruguay</span>
+</td>
+<td align="right">
+<span class="date">2011-Apr-20</span>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<p id="body10924" onclick='translateToggle( "body" + 10924 )'></p>
+<script type="text/javascript"> translate( "body" + 10924 );</script>
+</td>
+</tr>
+</table>
+<table class="squeakersTable">
+<tr>
+<td>
+<span class="name">CERAPIO QUINTANILLA</span>
+<span class="location">
+            
+                from 
+            
+            
+
+            HUANCAYO, 
+            Peru</span>
+<span class="since">(since 2011)</span>
+</td>
+<td align="right">
+<span class="date">2011-Mar-17</span>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<p id="body10584" onclick='translateToggle( "body" + 10584 )'>Porque se hace las matemticas de una forma diferente</p>
+<script type="text/javascript"> translate( "body" + 10584 );</script>
+</td>
+</tr>
+</table>
+<table class="squeakersTable">
+<tr>
+<td>
+<span class="name">Chechu</span>
+<span class="location">
+            
+                from 
+            
+            
+
+            Chuy, 
+            Uruguay</span>
+</td>
+<td align="right">
+<span class="date">2011-Feb-10</span>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<p id="body10495" onclick='translateToggle( "body" + 10495 )'></p>
+<script type="text/javascript"> translate( "body" + 10495 );</script>
+</td>
+</tr>
+</table>
+<table class="squeakersTable">
+<tr>
+<td>
+<span class="name">Gabriela Freire</span>
+<span class="location">
+            
+                from 
+            
+            
+
+            Montevideo, 
+            Uruguay</span>
+<span class="since">(since 2011)</span>
+</td>
+<td align="right">
+<span class="date">2011-Feb-08</span>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<p id="body10491" onclick='translateToggle( "body" + 10491 )'></p>
+<script type="text/javascript"> translate( "body" + 10491 );</script>
+</td>
+</tr>
+</table>
+<table class="squeakersTable">
+<tr>
+<td>
+<span class="name">Paola</span>
+<span class="location">
+            
+                from 
+            
+            
+
+            Tacuarembo, 
+            Uruguay</span>
+</td>
+<td align="right">
+<span class="date">2011-Feb-05</span>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<p id="body10486" onclick='translateToggle( "body" + 10486 )'>Por es una actividad muy motivadora que permite un abanico de posibilidades en secuencias dentro de la misma. </p>
+<script type="text/javascript"> translate( "body" + 10486 );</script>
+</td>
+</tr>
+</table>
+<table class="squeakersTable">
+<tr>
+<td>
+<span class="name">Marta Olivera</span>
+<span class="location">
+            
+                from 
+            
+            
+
+            Salto, 
+            Uruguay</span>
+<span class="since">(since 2011)</span>
+</td>
+<td align="right">
+<span class="date">2011-Jan-31</span>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<p id="body10485" onclick='translateToggle( "body" + 10485 )'>Porque es una actividad multimedia, muy motivadora para ensear los contenidos escolares.Es hermosisimo, por eso me agradara conocer todas las posibilidades posibles:como realizar un indizado en un libro,ponerle msica  desde un pendrive,hacer que sus pginas pasen como en una presentacin en power point. Se que hay que hacer un pequeo programa,lo he hecho por ensayo y error pero no puedo encontrar el guin correcto.Soy docente y quiero ensearle a mis nios.Gracias.</p>
+<script type="text/javascript"> translate( "body" + 10485 );</script>
+</td>
+</tr>
+</table>
+<table class="squeakersTable">
+<tr>
+<td>
+<span class="name">Horacio Martnez</span>
+<span class="location">
+            
+                from 
+            
+            
+
+            Hurlingham, Buenos Aires, 
+            Argentina</span>
+<span class="since">(since 2009)</span>
+</td>
+<td align="right">
+<span class="date">2011-Jan-31</span>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<p id="body10484" onclick='translateToggle( "body" + 10484 )'>Soy docente y veo en EToys una herramienta con enormes posibilidades.</p>
+<script type="text/javascript"> translate( "body" + 10484 );</script>
+</td>
+</tr>
+</table>
+<table class="squeakersTable">
+<tr>
+<td>
+<span class="name">agutin</span>
+<span class="location">
+            
+                from 
+            
+            
+
+            la ra
+            </span>
+</td>
+<td align="right">
+<span class="date">2011-Jan-29</span>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<p id="body10483" onclick='translateToggle( "body" + 10483 )'></p>
+<script type="text/javascript"> translate( "body" + 10483 );</script>
+</td>
+</tr>
+</table>
+<table class="squeakersTable">
+<tr>
+<td>
+<span class="name">luciana castro</span>
+<span class="location">
+            
+                from 
+            
+            
+
+            la rrioja, 
+            Argentina</span>
+<span class="since">(since 2011)</span>
+</td>
+<td align="right">
+<span class="date">2011-Jan-29</span>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<p id="body10480" onclick='translateToggle( "body" + 10480 )'>x q taah muiiii piola loko cual es giiilll!!!
+me gusta un chico de la rrioja se llama matias predes el ms indo del munooo looo aooooooooooooooo ami goolditoooooh hermohooo jajja 
+
+
+luciana castro la rrioja aguante el urbano 25 
+
+</p>
+<script type="text/javascript"> translate( "body" + 10480 );</script>
+</td>
+</tr>
+</table>
+<table class="squeakersTable">
+<tr>
+<td>
+<span class="name">Carmen Franzi</span>
+<span class="location">
+            
+                from 
+            
+            
+
+            Montevidep, 
+            Uruguay</span>
+</td>
+<td align="right">
+<span class="date">2011-Jan-24</span>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<p id="body10477" onclick='translateToggle( "body" + 10477 )'></p>
+<script type="text/javascript"> translate( "body" + 10477 );</script>
+</td>
+</tr>
+</table>
+<table class="squeakersTable">
+<tr>
+<td>
+<span class="name">Caryl Bigenho</span>
+<span class="location">
+            
+                from 
+            
+            
+
+            Southern California, 
+            United States</span>
+<span class="since">(since 2010)</span>
+</td>
+<td align="right">
+<span class="date">2011-Jan-22</span>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<p id="body10474" onclick='translateToggle( "body" + 10474 )'>I especially like Etoys-to-Go because it will run on just about any computer, including the older G4 Macs!</p>
+<script type="text/javascript"> translate( "body" + 10474 );</script>
+</td>
+</tr>
+</table>
+<table class="squeakersTable">
+<tr>
+<td>
+<span class="name">4t</span>
+<span class="location">
+            
+                from 
+            
+            
+
+            rta
+            </span>
+</td>
+<td align="right">
+<span class="date">2011-Jan-22</span>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<p id="body10473" onclick='translateToggle( "body" + 10473 )'></p>
+<script type="text/javascript"> translate( "body" + 10473 );</script>
+</td>
+</tr>
+</table>
+<table class="squeakersTable">
+<tr>
+<td>
+<span class="name">Jose I Avila </span>
+<span class="location">
+            
+                from 
+            
+            
+
+            Ibagu, 
+            Colombia</span>
+<span class="since">(since 2009)</span>
+</td>
+<td align="right">
+<span class="date">2011-Jan-10</span>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<p id="body10466" onclick='translateToggle( "body" + 10466 )'>Bueno es una herramienta gratuita que se puede emplear para la enseanza en los centros educativos de  primaria como en secundaria, ademas es una herramienta pedagogica de ayuda para los establecimientos educativos que cuentan con pocos recursos.</p>
+<script type="text/javascript"> translate( "body" + 10466 );</script>
+</td>
+</tr>
+</table>
+<table class="squeakersTable">
+<tr>
+<td>
+<span class="name">Miriam</span>
+<span class="location">
+            
+                from 
+            
+            
+
+            Crdoba, 
+            Argentina</span>
+<span class="since">(since 2010)</span>
+</td>
+<td align="right">
+<span class="date">2010-Dec-22</span>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<p id="body10417" onclick='translateToggle( "body" + 10417 )'>Porque hace yo era fantica del Programa micromundos y al no ser gratuito no lo poda ensear a los docentes pero esta herramienta tiene los principios similares a aquel programa y ademas es de uso libre, es decir que se aprende del error y es una herramienta contructivista.</p>
+<script type="text/javascript"> translate( "body" + 10417 );</script>
+</td>
+</tr>
+</table>
+<table class="squeakersTable">
+<tr>
+<td>
+<span class="name">Patricia Camacho</span>
+<span class="location">
+            
+                from 
+            
+            
+
+            Montevideo, 
+            Uruguay</span>
+<span class="since">(since 2010)</span>
+</td>
+<td align="right">
+<span class="date">2010-Dec-12</span>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<p id="body10409" onclick='translateToggle( "body" + 10409 )'></p>
+<script type="text/javascript"> translate( "body" + 10409 );</script>
+</td>
+</tr>
+</table>
+<table class="squeakersTable">
+<tr>
+<td>
+<span class="name">Jorge</span>
+<span class="location">
+            
+                from 
+            
+            
+
+            Lpez, 
+            Argentina</span>
+<span class="since">(since 2010)</span>
+</td>
+<td align="right">
+<span class="date">2010-Dec-07</span>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<p id="body10407" onclick='translateToggle( "body" + 10407 )'>Por sus posibilidades... Cuando sepa ms... Seguro que me gustar ms...</p>
+<script type="text/javascript"> translate( "body" + 10407 );</script>
+</td>
+</tr>
+</table>
+<table class="squeakersTable">
+<tr>
+<td>
+<span class="name">Nadia</span>
+<span class="location">
+            
+                from 
+            
+            
+
+            Montevideo, 
+            Uruguay</span>
+<span class="since">(since 2010)</span>
+</td>
+<td align="right">
+<span class="date">2010-Dec-06</span>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<p id="body10404" onclick='translateToggle( "body" + 10404 )'></p>
+<script type="text/javascript"> translate( "body" + 10404 );</script>
+</td>
+</tr>
+</table>
+<table class="squeakersTable">
+<tr>
+<td>
+<span class="name">Esther</span>
+<span class="location">
+            
+                from 
+            
+            
+
+            Tacuaremb, 
+            Uruguay</span>
+<span class="since">(since 2010)</span>
+</td>
+<td align="right">
+<span class="date">2010-Dec-01</span>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<p id="body10399" onclick='translateToggle( "body" + 10399 )'></p>
+<script type="text/javascript"> translate( "body" + 10399 );</script>
+</td>
+</tr>
+</table>
+<table class="squeakersTable">
+<tr>
+<td>
+<span class="name">Ricardo Vilar</span>
+<span class="location">
+            
+                from 
+            
+            
+
+            San Ramn, 
+            Uruguay</span>
+<span class="since">(since 2010)</span>
+</td>
+<td align="right">
+<span class="date">2010-Nov-30</span>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<p id="body10398" onclick='translateToggle( "body" + 10398 )'>Pues estoy comprometido con el Plan CEIBAL y me agradan todos los esfuerzos que convergen a su potenciacin.</p>
+<script type="text/javascript"> translate( "body" + 10398 );</script>
+</td>
+</tr>
+</table>
+<table class="squeakersTable">
+<tr>
+<td>
+<span class="name">maria antonieta</span>
+<span class="location">
+            
+                from 
+            
+            
+
+            pando, 
+            Uruguay</span>
+<span class="since">(since 2010)</span>
+</td>
+<td align="right">
+<span class="date">2010-Nov-30</span>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<p id="body10397" onclick='translateToggle( "body" + 10397 )'>no lo conozco aun, me lo recomendaron para aprender computacion.</p>
+<script type="text/javascript"> translate( "body" + 10397 );</script>
+</td>
+</tr>
+</table>
+<table class="squeakersTable">
+<tr>
+<td>
+<span class="name">Mara</span>
+<span class="location">
+            
+                from 
+            
+            
+
+            Durazno, 
+            Uruguay</span>
+<span class="since">(since 2007)</span>
+</td>
+<td align="right">
+<span class="date">2010-Nov-19</span>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<p id="body10374" onclick='translateToggle( "body" + 10374 )'>Se pueden poner en prctica muchos proyectos, es divertido y atractivo para los nios.</p>
+<script type="text/javascript"> translate( "body" + 10374 );</script>
+</td>
+</tr>
+</table>
+<table class="squeakersTable">
+<tr>
+<td>
+<span class="name">Uruguay Larre Borges</span>
+<span class="location">
+            
+                from 
+            
+            
+
+            Montevideo, 
+            Uruguay</span>
+<span class="since">(since 2008)</span>
+</td>
+<td align="right">
+<span class="date">2010-Oct-28</span>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<p id="body10360" onclick='translateToggle( "body" + 10360 )'>Por las posibilidades que brinda a los alumnos de aprender conceptos de programacin divirtindose.</p>
+<script type="text/javascript"> translate( "body" + 10360 );</script>
+</td>
+</tr>
+</table>
+<table class="squeakersTable">
+<tr>
+<td>
+<span class="name">Mara</span>
+<span class="location">
+            
+                from 
+            
+            
+
+            Montsevideo, 
+            Uruguay</span>
+<span class="since">(since 2009)</span>
+</td>
+<td align="right">
+<span class="date">2010-Oct-21</span>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<p id="body10346" onclick='translateToggle( "body" + 10346 )'></p>
+<script type="text/javascript"> translate( "body" + 10346 );</script>
+</td>
+</tr>
+</table>
+<table class="squeakersTable">
+<tr>
+<td>
+<span class="name">Beatriz Laguna</span>
+<span class="location">
+            
+                from 
+            
+            
+
+            Solymar (Urugay), 
+            Uruguay</span>
+<span class="since">(since 2010)</span>
+</td>
+<td align="right">
+<span class="date">2010-Oct-20</span>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<p id="body10342" onclick='translateToggle( "body" + 10342 )'>Este programa resulta muy potente especialmente en lo referente a las acciones que posibilitan el desarrollo cognitivo.
+No es fcil, pero lo importante es que hay que investigar</p>
+<script type="text/javascript"> translate( "body" + 10342 );</script>
+</td>
+</tr>
+</table>
+<table border="0" class="squeakersListBarTable">
+<tr>
+<td align="right" width="5%"> <span class="listBar"><a href="index.html">Previous</a></span> </td>
+<td align="center" width="5%"> <span class="listBar">&lt;</span> </td>
+<td align="center" width="24%"><span class="listBar">31 - 60 of 356</span> </td>
+<td align="center" width="5%"> <span class="listBar">&gt;</span> </td>
+<td align="left" width="5%"> <span class="listBar"><a href="index.html">Next</a></span> </td>
+</tr>
+</table>
+<table align="center" cellspacing="0" style="width: 80%">
+<tr>
+<td valign="top">
+<h1>Country Count</h1>
+<table class="sqlTable">
+<tr class="sqlTableRow">
+<td> #1 </td>
+<td> Congo, The Democratic Republic Of The </td>
+<td> 121 </td>
+</tr>
+<tr class="sqlTableRow">
+<td> #2 </td>
+<td> Uruguay </td>
+<td> 117 </td>
+</tr>
+<tr class="sqlTableRow">
+<td> #3 </td>
+<td> United States </td>
+<td> 87 </td>
+</tr>
+<tr class="sqlTableRow">
+<td> #4 </td>
+<td> Germany </td>
+<td> 25 </td>
+</tr>
+<tr class="sqlTableRow">
+<td> #5 </td>
+<td> Argentina </td>
+<td> 21 </td>
+</tr>
+<tr class="sqlTableRow">
+<td> #6 </td>
+<td> Brazil </td>
+<td> 19 </td>
+</tr>
+<tr class="sqlTableRow">
+<td> #7 </td>
+<td> Peru </td>
+<td> 13 </td>
+</tr>
+<tr class="sqlTableRow">
+<td> #8 </td>
+<td> Canada </td>
+<td> 8 </td>
+</tr>
+<tr class="sqlTableRow">
+<td> #9 </td>
+<td> Spain </td>
+<td> 8 </td>
+</tr>
+<tr class="sqlTableRow">
+<td> #10 </td>
+<td> Australia </td>
+<td> 7 </td>
+</tr>
+<tr class="sqlTableRow">
+<td> #11 </td>
+<td> Colombia </td>
+<td> 7 </td>
+</tr>
+<tr class="sqlTableRow">
+<td> #12 </td>
+<td> Philippines </td>
+<td> 6 </td>
+</tr>
+<tr class="sqlTableRow">
+<td> #13 </td>
+<td> Korea, Republic Of </td>
+<td> 5 </td>
+</tr>
+<tr class="sqlTableRow">
+<td> #14 </td>
+<td> Switzerland </td>
+<td> 5 </td>
+</tr>
+<tr class="sqlTableRow">
+<td> #15 </td>
+<td> France </td>
+<td> 4 </td>
+</tr>
+<tr class="sqlTableRow">
+<td> #16 </td>
+<td> Chile </td>
+<td> 4 </td>
+</tr>
+<tr class="sqlTableRow">
+<td> #17 </td>
+<td> Austria </td>
+<td> 4 </td>
+</tr>
+<tr class="sqlTableRow">
+<td> #18 </td>
+<td> Japan </td>
+<td> 4 </td>
+</tr>
+<tr class="sqlTableRow">
+<td> #19 </td>
+<td> Singapore </td>
+<td> 4 </td>
+</tr>
+<tr class="sqlTableRow">
+<td> #20 </td>
+<td> United Kingdom </td>
+<td> 4 </td>
+</tr>
+<tr class="sqlTableRow">
+<td> #21 </td>
+<td> Czech Republic </td>
+<td> 4 </td>
+</tr>
+<tr class="sqlTableRow">
+<td> #22 </td>
+<td> India </td>
+<td> 3 </td>
+</tr>
+<tr class="sqlTableRow">
+<td> #23 </td>
+<td> Portugal </td>
+<td> 3 </td>
+</tr>
+<tr class="sqlTableRow">
+<td> #24 </td>
+<td> Italy </td>
+<td> 3 </td>
+</tr>
+<tr class="sqlTableRow">
+<td> #25 </td>
+<td> Sweden </td>
+<td> 3 </td>
+</tr>
+<tr class="sqlTableRow">
+<td> #26 </td>
+<td> Mexico </td>
+<td> 3 </td>
+</tr>
+<tr class="sqlTableRow">
+<td> #27 </td>
+<td> United Arab Emirates </td>
+<td> 3 </td>
+</tr>
+<tr class="sqlTableRow">
+<td> #28 </td>
+<td> Netherlands </td>
+<td> 3 </td>
+</tr>
+<tr class="sqlTableRow">
+<td> #29 </td>
+<td> New Zealand </td>
+<td> 2 </td>
+</tr>
+<tr class="sqlTableRow">
+<td> #30 </td>
+<td> Northern Mariana Islands </td>
+<td> 2 </td>
+</tr>
+<tr class="sqlTableRow">
+<td> #31 </td>
+<td> Guadeloupe </td>
+<td> 2 </td>
+</tr>
+<tr class="sqlTableRow">
+<td> #32 </td>
+<td> Bolivia </td>
+<td> 2 </td>
+</tr>
+<tr class="sqlTableRow">
+<td> #33 </td>
+<td> Heard Island And Mcdonald Islands </td>
+<td> 2 </td>
+</tr>
+<tr class="sqlTableRow">
+<td> #34 </td>
+<td> Saint Helena </td>
+<td> 2 </td>
+</tr>
+<tr class="sqlTableRow">
+<td> #35 </td>
+<td> Liberia </td>
+<td> 2 </td>
+</tr>
+<tr class="sqlTableRow">
+<td> #36 </td>
+<td> Marshall Islands </td>
+<td> 2 </td>
+</tr>
+<tr class="sqlTableRow">
+<td> #37 </td>
+<td> Turkey </td>
+<td> 2 </td>
+</tr>
+<tr class="sqlTableRow">
+<td> #38 </td>
+<td> Ethiopia </td>
+<td> 2 </td>
+</tr>
+<tr class="sqlTableRow">
+<td> #39 </td>
+<td> Finland </td>
+<td> 2 </td>
+</tr>
+<tr class="sqlTableRow">
+<td> #40 </td>
+<td> Gabon </td>
+<td> 1 </td>
+</tr>
+<tr class="sqlTableRow">
+<td> #41 </td>
+<td> Niger </td>
+<td> 1 </td>
+</tr>
+<tr class="sqlTableRow">
+<td> #42 </td>
+<td> Cayman Islands </td>
+<td> 1 </td>
+</tr>
+<tr class="sqlTableRow">
+<td> #43 </td>
+<td> Gambia </td>
+<td> 1 </td>
+</tr>
+<tr class="sqlTableRow">
+<td> #44 </td>
+<td> Nigeria </td>
+<td> 1 </td>
+</tr>
+<tr class="sqlTableRow">
+<td> #45 </td>
+<td> Niue </td>
+<td> 1 </td>
+</tr>
+<tr class="sqlTableRow">
+<td> #46 </td>
+<td> Cameroon </td>
+<td> 1 </td>
+</tr>
+<tr class="sqlTableRow">
+<td> #47 </td>
+<td> Greece </td>
+<td> 1 </td>
+</tr>
+<tr class="sqlTableRow">
+<td> #48 </td>
+<td> Bulgaria </td>
+<td> 1 </td>
+</tr>
+<tr class="sqlTableRow">
+<td> #49 </td>
+<td> Paraguay </td>
+<td> 1 </td>
+</tr>
+<tr class="sqlTableRow">
+<td> #50 </td>
+<td> Guatemala </td>
+<td> 1 </td>
+</tr>
+<tr class="sqlTableRow">
+<td> #51 </td>
+<td> Bhutan </td>
+<td> 1 </td>
+</tr>
+<tr class="sqlTableRow">
+<td> #52 </td>
+<td> Poland </td>
+<td> 1 </td>
+</tr>
+<tr class="sqlTableRow">
+<td> #53 </td>
+<td> Belgium </td>
+<td> 1 </td>
+</tr>
+<tr class="sqlTableRow">
+<td> #54 </td>
+<td> Indonesia </td>
+<td> 1 </td>
+</tr>
+<tr class="sqlTableRow">
+<td> #55 </td>
+<td> Iran, Islamic Republic Of </td>
+<td> 1 </td>
+</tr>
+<tr class="sqlTableRow">
+<td> #56 </td>
+<td> Russian Federation </td>
+<td> 1 </td>
+</tr>
+<tr class="sqlTableRow">
+<td> #57 </td>
+<td> Ireland </td>
+<td> 1 </td>
+</tr>
+<tr class="sqlTableRow">
+<td> #58 </td>
+<td> Aruba </td>
+<td> 1 </td>
+</tr>
+<tr class="sqlTableRow">
+<td> #59 </td>
+<td> Saudi Arabia </td>
+<td> 1 </td>
+</tr>
+<tr class="sqlTableRow">
+<td> #60 </td>
+<td> Armenia </td>
+<td> 1 </td>
+</tr>
+<tr class="sqlTableRow">
+<td> #61 </td>
+<td> Seychelles </td>
+<td> 1 </td>
+</tr>
+<tr class="sqlTableRow">
+<td> #62 </td>
+<td> American Samoa </td>
+<td> 1 </td>
+</tr>
+<tr class="sqlTableRow">
+<td> #63 </td>
+<td> Lesotho </td>
+<td> 1 </td>
+</tr>
+<tr class="sqlTableRow">
+<td> #64 </td>
+<td> Slovenia </td>
+<td> 1 </td>
+</tr>
+<tr class="sqlTableRow">
+<td> #65 </td>
+<td> Albania </td>
+<td> 1 </td>
+</tr>
+<tr class="sqlTableRow">
+<td> #66 </td>
+<td> South Georgia And The South Sandwich Islands </td>
+<td> 1 </td>
+</tr>
+<tr class="sqlTableRow">
+<td> #67 </td>
+<td> Lithuania </td>
+<td> 1 </td>
+</tr>
+<tr class="sqlTableRow">
+<td> #68 </td>
+<td> Luxembourg </td>
+<td> 1 </td>
+</tr>
+<tr class="sqlTableRow">
+<td> #69 </td>
+<td> Sudan </td>
+<td> 1 </td>
+</tr>
+<tr class="sqlTableRow">
+<td> #70 </td>
+<td> Macedonia, The Former Yugoslav Republic Of </td>
+<td> 1 </td>
+</tr>
+<tr class="sqlTableRow">
+<td> #71 </td>
+<td> Svalbard And Jan Mayen </td>
+<td> 1 </td>
+</tr>
+<tr class="sqlTableRow">
+<td> #72 </td>
+<td> Madagascar </td>
+<td> 1 </td>
+</tr>
+<tr class="sqlTableRow">
+<td> #73 </td>
+<td> Malawi </td>
+<td> 1 </td>
+</tr>
+<tr class="sqlTableRow">
+<td> #74 </td>
+<td> Maldives </td>
+<td> 1 </td>
+</tr>
+<tr class="sqlTableRow">
+<td> #75 </td>
+<td> Tokelau </td>
+<td> 1 </td>
+</tr>
+<tr class="sqlTableRow">
+<td> #76 </td>
+<td> Tunisia </td>
+<td> 1 </td>
+</tr>
+<tr class="sqlTableRow">
+<td> #77 </td>
+<td> Martinique </td>
+<td> 1 </td>
+</tr>
+<tr class="sqlTableRow">
+<td> #78 </td>
+<td> Ukraine </td>
+<td> 1 </td>
+</tr>
+<tr class="sqlTableRow">
+<td> #79 </td>
+<td> Ecuador </td>
+<td> 1 </td>
+</tr>
+<tr class="sqlTableRow">
+<td> #80 </td>
+<td> Monaco </td>
+<td> 1 </td>
+</tr>
+<tr class="sqlTableRow">
+<td> #81 </td>
+<td> El Salvador </td>
+<td> 1 </td>
+</tr>
+<tr class="sqlTableRow">
+<td> #82 </td>
+<td> Montenegro </td>
+<td> 1 </td>
+</tr>
+<tr class="sqlTableRow">
+<td> #83 </td>
+<td> Estonia </td>
+<td> 1 </td>
+</tr>
+<tr class="sqlTableRow">
+<td> #84 </td>
+<td> Morocco </td>
+<td> 1 </td>
+</tr>
+<tr class="sqlTableRow">
+<td> #85 </td>
+<td> Myanmar </td>
+<td> 1 </td>
+</tr>
+<tr class="sqlTableRow">
+<td> #86 </td>
+<td> Falkland Islands (malvinas) </td>
+<td> 1 </td>
+</tr>
+<tr class="sqlTableRow">
+<td> #87 </td>
+<td> Congo </td>
+<td> 1 </td>
+</tr>
+<tr class="sqlTableRow">
+<td> #88 </td>
+<td> New Caledonia </td>
+<td> 1 </td>
+</tr>
+</table>
+</td>
+<td valign="top">
+<h1>Year Count</h1>
+<table class="sqlTable">
+<tr class="sqlTableRow">
+<td> </td>
+<td> 3 </td>
+</tr>
+<tr class="sqlTableRow">
+<td> 1997 </td>
+<td> 20 </td>
+</tr>
+<tr class="sqlTableRow">
+<td> 1998 </td>
+<td> 4 </td>
+</tr>
+<tr class="sqlTableRow">
+<td> 1999 </td>
+<td> 5 </td>
+</tr>
+<tr class="sqlTableRow">
+<td> 2000 </td>
+<td> 5 </td>
+</tr>
+<tr class="sqlTableRow">
+<td> 2001 </td>
+<td> 5 </td>
+</tr>
+<tr class="sqlTableRow">
+<td> 2002 </td>
+<td> 6 </td>
+</tr>
+<tr class="sqlTableRow">
+<td> 2003 </td>
+<td> 8 </td>
+</tr>
+<tr class="sqlTableRow">
+<td> 2004 </td>
+<td> 13 </td>
+</tr>
+<tr class="sqlTableRow">
+<td> 2005 </td>
+<td> 13 </td>
+</tr>
+<tr class="sqlTableRow">
+<td> 2006 </td>
+<td> 11 </td>
+</tr>
+<tr class="sqlTableRow">
+<td> 2007 </td>
+<td> 28 </td>
+</tr>
+<tr class="sqlTableRow">
+<td> 2008 </td>
+<td> 35 </td>
+</tr>
+<tr class="sqlTableRow">
+<td> 2009 </td>
+<td> 59 </td>
+</tr>
+<tr class="sqlTableRow">
+<td> 2010 </td>
+<td> 49 </td>
+</tr>
+<tr class="sqlTableRow">
+<td> 2011 </td>
+<td> 19 </td>
+</tr>
+<tr class="sqlTableRow">
+<td> 2012 </td>
+<td> 5 </td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<br/>
+<!-- content end -->
+
+<td style="vertical-align: top; background: url( /images/canvasRightStretch.png );"><img alt="" border="0" height="346" id="canvasRight" name="canvasRight" src="../images/canvasRight.png" width="11"/></td>
+<td><img alt="" border="0" height="346" src="../images/spacer.gif" width="1"/></td>
+
+<tr>
+<td><img alt="" border="0" height="2" id="canvasLeftStretch" name="canvasLeftStretch" src="../images/canvasLeftStretch.png" width="10"/></td>
+<td colspan="4"><img alt="" border="0" height="2" src="../images/spacer.gif" width="681"/></td>
+<td><img alt="" border="0" height="2" id="canvasRightStretch" name="canvasRightStretch" src="../images/canvasRightStretch.png" width="11"/></td>
+<td><img alt="" border="0" height="2" src="../images/spacer.gif" width="1"/></td>
+</tr>
+<tr>
+<td colspan="8" valign="top"><img alt="" border="0" height="55" id="footer" name="footer" src="../images/footer.png" width="857"/></td>
+<td><img alt="" border="0" height="55" src="../images/spacer.gif" width="1"/></td>
+</tr>
+<tr>
+<td> </td>
+<td colspan="6">
+<table class="footer" width="100%">
+<tr>
+<td align="left" valign="top" width="25%">
+<a href="../software/index.html" target="_blank"><img alt="powered by storymill" border="0" height="30" hspace="20" src="../sm/images/storymillPoweredBy-white.gif" width="85"/></a>
+</td>
+<td align="center" valign="top" width="50%">
+<p style="margin: 0; padding: 0 0 3px 0;">
+
+            Website contents under a Creative Commons <a href="../licenses/by-nc-sa/3.0/index.html">license</a>.</p>
+<a href="../privacy.jsp">Privacy Policy</a>    <a href="../sitemap.jsp">Site Map</a>
+</td>
+<td align="right" valign="top" width="25%">
+<a href="../index.html" target="_blank"><img alt="website by immuexa" border="0" height="30" hspace="20" src="../sm/images/websiteBy-white.gif" width="70"/></a>
+</td>
+</tr>
+</table>
+<br/>
+<br/>
+</td>
+<td colspan="2"> </td>
+</tr>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-8510916-1']);
+  _gaq.push(['_setDomainName', 'none']);
+  _gaq.push(['_setAllowLinker', true]);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>

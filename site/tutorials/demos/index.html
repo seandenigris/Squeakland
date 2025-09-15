@@ -1,0 +1,505 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd ">
+
+<html>
+<head>
+<meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+<!--[if lte IE 6]>
+   <script type="text/javascript" src="/sm/includes/supersleight.js"></script>
+   <![endif]-->
+<title> squeakland : tutorials : demos </title>
+<link href="../../sm/includes/sm-default.css" rel="stylesheet" type="text/css"/>
+<link href="../../includes/styles.css" rel="stylesheet" type="text/css"/>
+<link href="../../images/favicon.png" rel="shortcut icon"/>
+<meta content="Etoys is an educational tool for teaching children powerful ideas in compelling ways.  Etoys is a media-rich authoring environment and visual programming system." name="description"/>
+<meta content="squeak,etoys,olpc,xo,alan kay,viewpoints,science,math,visual programming,papert,constructionism" name="keywords"/>
+<meta content="iLSJv7DYRXHf6om4I_AW8cUlaOXo0jx7-ub-cidVvXA" name="google-site-verification">
+</meta></head>
+<body>
+<map id="actionNavMap" name="actionNavMap">
+<area alt="download" coords=" 52, 0, 118, 17" href="../../download/index.html" shape="rect" title="download"/>
+<area alt="contact" coords="132, 0, 187, 17" href="../../contact/index.html" shape="rect" title="contact"/>
+<area alt="donate" coords="199, 0, 250, 17" href="../../donate/index.html" shape="rect" title="donate"/>
+<area alt="discuss" coords="262, 0, 313, 17" href="../../discuss/index.html" shape="rect" title="discuss"/>
+<area alt="subscribe" coords="327, 0, 389, 17" href="../../subscribe/index.html" shape="rect" title="subscribe"/>
+</map>
+<map id="mainNavMap" name="mainNavMap">
+<area alt="About" coords=" 19, 7,  69, 27" href="../../about/index.html" shape="rect" title="About"/>
+<area alt="Tutorials" coords=" 75, 7, 140, 27" href="../index.html" shape="rect" title="Tutorials"/>
+<area alt="Resources" coords="147, 7, 223, 27" href="../../resources/index.html" shape="rect" title="Resources"/>
+<area alt="Showcase" coords="231, 7, 304, 27" href="../../showcase/index.html" shape="rect" title="Showcase"/>
+<area alt="News" coords="312, 7, 354, 27" href="../../news/index.html" shape="rect" title="News"/>
+</map>
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="canvas" width="857">
+<!-- fwtable fwsrc="design16-content.png" fwpage="Page 1" fwbase="mockup.png" fwstyle="Dreamweaver" fwdocid = "1021545101" fwnested="0" -->
+<tr>
+<td>
+<div class="logo"><a href="../../index.html"><img border="0" height="161" src="../../images/logo.png" width="368"/></a></div>
+<img alt="" border="0" height="1" src="../../images/spacer.gif" width="100">
+</img></td>
+<td><img alt="" border="0" height="1" src="../../images/spacer.gif" width="10"/></td>
+<td><img alt="" border="0" height="1" src="../../images/spacer.gif" width="275"/></td>
+<td><img alt="" border="0" height="1" src="../../images/spacer.gif" width="19"/></td>
+<td><img alt="" border="0" height="1" src="../../images/spacer.gif" width="368"/>
+<div class="adminMiniMenu">
+<table align="right" cellspacing="0">
+<tr>
+<td><a href="../../index.html" target="_blank">bugs</a></td>
+<td><a href="../../index.html" target="_blank">wiki</a></td>
+<td>
+<a href="../../sm/login.jsp">login</a>
+</td>
+<td>
+<form action="/action/chooseLanguage" method="POST" name="languageForm">
+<select name="langKey" onchange="this.form.submit()">
+<option value="fr">Franais</option>
+<option value="pt">Portugus</option>
+<option selected="selected" value="en">English</option>
+<option value="es">Espaol</option>
+<option value="de">Deutsch</option>
+</select>
+</form>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td><img alt="" border="0" height="1" src="../../images/spacer.gif" width="19"/></td>
+<td><img alt="" border="0" height="1" src="../../images/spacer.gif" width="11"/></td>
+<td><img alt="" border="0" height="1" src="../../images/spacer.gif" width="55"/></td>
+<td><img alt="" border="0" height="1" src="../../images/spacer.gif" width="1"/></td>
+</tr>
+<tr>
+<td colspan="8"><img alt="" border="0" height="63" src="../../images/spacer.gif" width="857"/></td>
+<td><img alt="" border="0" height="63" src="../../images/spacer.gif" width="1"/></td>
+</tr>
+<tr>
+<td rowspan="6"><img alt="" border="0" height="443" src="../../images/spacer.gif" width="100"/></td>
+<td colspan="2" rowspan="4"><img alt="" border="0" height="95" id="logoBack" name="logoBack" src="../../images/logoBack.png" width="285"/></td>
+<td colspan="4"><img alt="" border="0" height="17" id="actionNav" name="actionNav" src="../../images/actionNav.png" usemap="#actionNavMap" width="417"/></td>
+<td rowspan="6"><img alt="" border="0" height="443" src="../../images/spacer.gif" width="55"/></td>
+<td><img alt="" border="0" height="17" src="../../images/spacer.gif" width="1"/></td>
+</tr>
+<tr>
+<td rowspan="3"><img alt="" border="0" height="78" id="navLeft" name="navLeft" src="../../images/navLeft.png" width="19"/></td>
+<td><img alt="" border="0" height="29" id="navTop" name="navTop" src="../../images/mainNav-tutorials.png" usemap="#mainNavMap" width="368"/></td>
+<td colspan="2" rowspan="3"><img alt="" border="0" height="78" id="navRight" name="navRight" src="../../images/navRight.png" width="30"/></td>
+<td><img alt="" border="0" height="29" src="../../images/spacer.gif" width="1"/></td>
+</tr>
+<tr>
+<td style="background: url(/images//subNav.png) no-repeat;">
+<div class="subNav">
+<ul>
+<li class="vertRule"><a href="../screencasts/index.html">screencasts</a></li>
+<li class="vertRule"><a href="../guides/index.html">quick guides</a></li>
+<li><a href="index.html" style="color: #009900;">demos</a></li>
+</ul>
+</div>
+</td>
+<td><img alt="" border="0" height="19" src="../../images/spacer.gif" width="1"/></td>
+</tr>
+<tr>
+<td><img alt="" border="0" height="30" id="navBottom" name="navBottom" src="../../images/navBottom.png" width="368"/></td>
+<td><img alt="" border="0" height="30" src="../../images/spacer.gif" width="1"/></td>
+</tr>
+<tr>
+<td style="vertical-align: top; background: url( /images//canvasLeftStretch.png );"><img alt="" border="0" height="346" id="canvasLeft" name="canvasLeft" src="../../images/canvasLeft.png" width="10"/></td>
+<td class="content" colspan="4" style="vertical-align: top; background: white url( /images//content.png ) no-repeat;">
+<br/>
+<table class="articleTable">
+<td class="articleContentColumn" colspan="3">
+<h1 id="title3009">
+               
+                  Interactive Demos
+               
+               
+            </h1>
+<div class="articleBody" id="body3009">
+
+               
+               
+
+               
+               
+
+               
+               
+
+               
+               These Etoys tutorials will teach you the basics and challenge you for some fun!<br/>
+</div>
+</td>
+</table></td></tr>
+</table>
+<table class="articleTable">
+<td align="right" class="articleLeftColumn" valign="top">
+<a href="../../launcher.html" target="_blank">
+<img alt="" class="leftColImage" src="../../content/articles/thumb/DemonCastle1.gif"/>
+</a>
+</td>
+<td class="articleContentColumn" colspan="2">
+<h2 id="title2322">
+<a href="../../launcher.html" target="_blank">
+                  Demon Castle 1</a>
+</h2>
+<div class="articleBody" id="body2322">
+
+               
+               
+
+               
+               
+
+               
+               
+
+               
+               This is a great game-based tutorial for beginners to learn about "handles".  If you are just learning to use Squeak Etoys, we suggest you start here.<br/>
+</div>
+</td>
+
+<td align="right" class="articleLeftColumn" valign="top">
+<a href="../../launcher.html" target="_blank">
+<img alt="" class="leftColImage" src="../../content/articles/thumb/EtoysChallenge.gif"/>
+</a>
+</td>
+<td class="articleContentColumn" colspan="2">
+<h2 id="title2323">
+<a href="../../launcher.html" target="_blank">
+                  Etoys Challenge</a>
+</h2>
+<div class="articleBody" id="body2323">
+
+               
+               
+
+               
+               
+
+               
+               
+
+               
+               Each task in this series of seven challenges has a goal and a set of tiles to choose from to create a script to reach the goal.<br/>
+</div>
+</td>
+
+<td align="right" class="articleLeftColumn" valign="top">
+<a href="../../launcher.html" target="_blank">
+<img alt="" class="leftColImage" src="../../content/articles/thumb/JustPaintedCar.gif"/>
+</a>
+</td>
+<td class="articleContentColumn" colspan="2">
+<h2 id="title4119">
+<a href="../../launcher.html" target="_blank">
+                  Just Painted Car</a>
+</h2>
+<div class="articleBody" id="body4119">
+
+               
+               
+
+               
+               
+
+               
+               
+
+               
+               Etoys is a great tool to model an idea through exploration.  Begin by painting a simple object.<br/>
+</div>
+</td>
+
+<td align="right" class="articleLeftColumn" valign="top">
+<a href="../../launcher.html" target="_blank">
+<img alt="" class="leftColImage" src="../../content/articles/thumb/CarAndPen.gif"/>
+</a>
+</td>
+<td class="articleContentColumn" colspan="2">
+<h2 id="title4116">
+<a href="../../launcher.html" target="_blank">
+                  Car and Pen</a>
+</h2>
+<div class="articleBody" id="body4116">
+
+               
+               
+
+               
+               
+
+               
+               
+
+               
+               Each object has a built-in "pen" that can leave a "trail" on the "world".  Pen trails can be lines, dots, or arrows.<br/>
+</div>
+</td>
+
+<td align="right" class="articleLeftColumn" valign="top">
+<a href="../../launcher.html" target="_blank">
+<img alt="" class="leftColImage" src="../../content/articles/thumb/SteeringTheCar.gif"/>
+</a>
+</td>
+<td class="articleContentColumn" colspan="2">
+<h2 id="title4129">
+<a href="../../launcher.html" target="_blank">
+                  Steering the Car</a>
+</h2>
+<div class="articleBody" id="body4129">
+
+               
+               
+
+               
+               
+
+               
+               
+
+               
+               Etoys objects can "talk" to each other.  If you look at the script "simpleSteering", you see that the car is turning by the wheel's heading.<br/>
+</div>
+</td>
+
+<td align="right" class="articleLeftColumn" valign="top">
+<a href="../../launcher.html" target="_blank">
+<img alt="" class="leftColImage" src="../../content/articles/thumb/FollowRoad.gif"/>
+</a>
+</td>
+<td class="articleContentColumn" colspan="2">
+<h2 id="title4118">
+<a href="../../launcher.html" target="_blank">
+                  Follow Road</a>
+</h2>
+<div class="articleBody" id="body4118">
+
+               
+               
+
+               
+               
+
+               
+               
+
+               
+               This illustrates a simple feedback system using a "test".<br/>
+</div>
+</td>
+
+<td align="right" class="articleLeftColumn" valign="top">
+<a href="../../launcher.html" target="_blank">
+<img alt="" class="leftColImage" src="../../content/articles/thumb/MiddleOfRoad.gif"/>
+</a>
+</td>
+<td class="articleContentColumn" colspan="2">
+<h2 id="title4121">
+<a href="../../launcher.html" target="_blank">
+                  Middle of Road</a>
+</h2>
+<div class="articleBody" id="body4121">
+
+               
+               
+
+               
+               
+
+               
+               
+
+               
+               After making the "Follow the Road", the challenge is now to make the car drive down the middle of the road.<br/>
+</div>
+</td>
+
+<td align="right" class="articleLeftColumn" valign="top">
+<a href="../../launcher.html" target="_blank">
+<img alt="" class="leftColImage" src="../../content/articles/thumb/MakeAMovie.gif"/>
+</a>
+</td>
+<td class="articleContentColumn" colspan="2">
+<h2 id="title4120">
+<a href="../../launcher.html" target="_blank">
+                  Make A Movie</a>
+</h2>
+<div class="articleBody" id="body4120">
+
+               
+               
+
+               
+               
+
+               
+               
+
+               
+               Etoys can accept input from a camera. It creates a series of still pictures (JPGs) from the movie.<br/>
+</div>
+</td>
+
+<td align="right" class="articleLeftColumn" valign="top">
+<a href="../../launcher.html" target="_blank">
+<img alt="" class="leftColImage" src="../../content/articles/thumb/BetterMovieUI.gif"/>
+</a>
+</td>
+<td class="articleContentColumn" colspan="2">
+<h2 id="title4115">
+<a href="../../launcher.html" target="_blank">
+                  Better Movie UI</a>
+</h2>
+<div class="articleBody" id="body4115">
+
+               
+               
+
+               
+               
+
+               
+               
+
+               
+               This project shows some techniques for making a movie. See the "Make a Movie" project for the basics.<br/>
+</div>
+</td>
+
+<td align="right" class="articleLeftColumn" valign="top">
+<a href="../../launcher.html" target="_blank">
+<img alt="" class="leftColImage" src="../../content/articles/thumb/K0101 Kusasa.gif"/>
+</a>
+</td>
+<td class="articleContentColumn" colspan="2">
+<h2 id="title4135">
+<a href="../../launcher.html" target="_blank">
+                  Kusasa: Introductory project</a>
+</h2>
+<div class="articleBody" id="body4135">
+
+               
+               
+
+               
+               
+
+               
+               
+
+               
+               Get started with Etoys with this fun interactive book created by a team from the Shuttleworth Foundation.<br/>
+</div>
+</td>
+
+<td align="right" class="articleLeftColumn" valign="top">
+<a href="../../launcher.html" target="_blank">
+<img alt="" class="leftColImage" src="../../content/articles/thumb/KT001_Treasure.gif"/>
+</a>
+</td>
+<td class="articleContentColumn" colspan="2">
+<h2 id="title4139">
+<a href="../../launcher.html" target="_blank">
+                  Kusasa: Stash the treasure</a>
+</h2>
+<div class="articleBody" id="body4139">
+
+               
+               
+
+               
+               
+
+               
+               
+
+               
+               Get used to picking up and moving objects<br/>
+</div>
+</td>
+
+<td align="right" class="articleLeftColumn" valign="top">
+<a href="../../launcher.html" target="_blank">
+<img alt="" class="leftColImage" src="../../content/articles/thumb/KT002_Fun_Sun.gif"/>
+</a>
+</td>
+<td class="articleContentColumn" colspan="2">
+<h2 id="title4140">
+<a href="../../launcher.html" target="_blank">
+                  Kusasa: Fun Sun</a>
+</h2>
+<div class="articleBody" id="body4140">
+
+               
+               
+
+               
+               
+
+               
+               
+
+               
+               Learn how to rotate objects using the halo and a script<br/>
+</div>
+</td>
+
+</table>
+<!-- content start -->
+<!-- content end -->
+
+<td style="vertical-align: top; background: url( /images/canvasRightStretch.png );"><img alt="" border="0" height="346" id="canvasRight" name="canvasRight" src="../../images/canvasRight.png" width="11"/></td>
+<td><img alt="" border="0" height="346" src="../../images/spacer.gif" width="1"/></td>
+
+<tr>
+<td><img alt="" border="0" height="2" id="canvasLeftStretch" name="canvasLeftStretch" src="../../images/canvasLeftStretch.png" width="10"/></td>
+<td colspan="4"><img alt="" border="0" height="2" src="../../images/spacer.gif" width="681"/></td>
+<td><img alt="" border="0" height="2" id="canvasRightStretch" name="canvasRightStretch" src="../../images/canvasRightStretch.png" width="11"/></td>
+<td><img alt="" border="0" height="2" src="../../images/spacer.gif" width="1"/></td>
+</tr>
+<tr>
+<td colspan="8" valign="top"><img alt="" border="0" height="55" id="footer" name="footer" src="../../images/footer.png" width="857"/></td>
+<td><img alt="" border="0" height="55" src="../../images/spacer.gif" width="1"/></td>
+</tr>
+<tr>
+<td> </td>
+<td colspan="6">
+<table class="footer" width="100%">
+<tr>
+<td align="left" valign="top" width="25%">
+<a href="../../software/index.html" target="_blank"><img alt="powered by storymill" border="0" height="30" hspace="20" src="../../sm/images/storymillPoweredBy-white.gif" width="85"/></a>
+</td>
+<td align="center" valign="top" width="50%">
+<p style="margin: 0; padding: 0 0 3px 0;">
+
+            Website contents under a Creative Commons <a href="../../licenses/by-nc-sa/3.0/index.html">license</a>.</p>
+<a href="../../privacy.jsp">Privacy Policy</a>    <a href="../../sitemap.jsp">Site Map</a>
+</td>
+<td align="right" valign="top" width="25%">
+<a href="../../index.html" target="_blank"><img alt="website by immuexa" border="0" height="30" hspace="20" src="../../sm/images/websiteBy-white.gif" width="70"/></a>
+</td>
+</tr>
+</table>
+<br/>
+<br/>
+</td>
+<td colspan="2"> </td>
+</tr>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-8510916-1']);
+  _gaq.push(['_setDomainName', 'none']);
+  _gaq.push(['_setAllowLinker', true]);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>

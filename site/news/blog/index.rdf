@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<rss version="2.0" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+  xmlns:admin="http://webns.net/mvcb/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+<channel>
+<title>Squeak Etoys Blog</title>
+<link>http://squeakland.org/news/blog/</link>
+<description>The latest news on Squeak Etoys</description>
+<dc:language>en-us</dc:language>
+<dc:creator>rita@squeakland.org</dc:creator>
+<dc:date>2010-10-07T07:46:09-08:00</dc:date>
+<admin:generatorAgent rdf:resource="http://www.movabletype.org/?v=2.64" />
+<sy:updatePeriod>hourly</sy:updatePeriod>
+<sy:updateFrequency>1</sy:updateFrequency>
+<sy:updateBase>2000-01-01T12:00+00:00</sy:updateBase>
+
+<item>
+<title>Fun with Pattern Blocks and Transformation Tools</title>
+<link>http://squeakland.org/news/blog/archive/000993.jsp</link>
+<description>Here you can find Steve&apos;s new video and blog about the things you can do with Etoys!
+
+http://mrstevesscience.blogspot.com</description>
+<guid isPermaLink="false">993@http://squeakland.org/news/blog/</guid>
+<dc:subject></dc:subject>
+<dc:date>2010-10-07T07:46:09-08:00</dc:date>
+</item>
+<item>
+<title>Squeak Etoys at Linuxtag</title>
+<link>http://squeakland.org/news/blog/archive/000961.jsp</link>
+<description>Squeak Etoys has been demonstrated on Classmate, XO, and iPad at LinuxTag Berlin 2010</description>
+<guid isPermaLink="false">961@http://squeakland.org/news/blog/</guid>
+<dc:subject></dc:subject>
+<dc:date>2010-06-11T05:44:42-08:00</dc:date>
+</item>
+<item>
+<title>Squeakfest Call for Presentations</title>
+<link>http://squeakland.org/news/blog/archive/000945.jsp</link>
+<description>The official Squeakfest website is now live and ready for you to  
+propose a presentation, workshop, or panel.
+
+http://squeakfest.org
+
+The dates for Squeakfest USA in Wilmington NC are July 26, 27, 28.
+
+The theme for this year&apos;s conference will be &quot;Etoys in the STEM classroom.&quot; 
+As we are in the place where the NSF project Using Squeak to Infuse Technology (USeIT) 
+is reaching it&apos;s 3rd year, we will see and learn a lot about their experiences.  
+
+If you&apos;ve got experience teaching  with Etoys, we&apos;d love to hear about it, as would the 
+attendees of the conference. We&apos;re also very interested in non-classroom Etoys use, particularly as it relates  
+to OLPC pilots or homeschooling.
+
+We&apos;ll be adding more information to the website as it becomes  
+available, but for now, the important thing is to get your  
+presentation information to us so we can begin to design the program  
+for our three days together. Please complete and submit the online  
+form no later than June 11th, 2010.
+
+Please share this information with anyone you think would be  
+interested in either Squeakfest conference.
+
+We hope to see you there!
+
+Greetings,
+Rita</description>
+<guid isPermaLink="false">945@http://squeakland.org/news/blog/</guid>
+<dc:subject></dc:subject>
+<dc:date>2010-05-13T11:06:33-08:00</dc:date>
+</item>
+<item>
+<title>Application to SFC sent today!</title>
+<link>http://squeakland.org/news/blog/archive/000944.jsp</link>
+<description>Thanks to the diligent work of Cathie and others, we were able to send the application of Squakland Foundation to become part of the Software Freedom Conservancy today! 
+We know that the process will take some time, since the SFC has a backlog for acceptance of projects of up to three to six months. But this process has now started!</description>
+<guid isPermaLink="false">944@http://squeakland.org/news/blog/</guid>
+<dc:subject></dc:subject>
+<dc:date>2010-05-11T12:25:47-08:00</dc:date>
+</item>
+<item>
+<title>New Squeakland Board</title>
+<link>http://squeakland.org/news/blog/archive/000943.jsp</link>
+<description>Dear Squeakers,
+
+I&apos;m happy to tell you that we have a new Squeakland Board in place!  On our last board meeting at April, 27 we came up with a list of candidates, and everyone accepted. We now have Rita Freudenberg,  Cathleen Galas, Walter Bender, Scott Wallace, Ted Kaehler, Randall Caton, Elliot Miranda, Cherry Withers, Kathleen Harness, Marta Voelker, Milan Zimmerman, Carlos Rabassa, and Korakurider on the board. 
+
+http://www.squeakland.org/about/people/
+
+I want to thank everyone on the previous board for all the work you did during the last year, especially the leaving board members Kim Rose, Yoshiki Oshima, and Tim Falconer. 
+
+On the meeting, we also discussed how to proceed with the incorporation of Squeakland. We decided to apply to become a member of the Software Freedom Conservancy (SFC). This is a 501(c)(3) organisation, and all members will get this status, too. Also, SFC will handle the tax issues. SFC is focused on free and open source software projects. We will find out, if Squeakland is eligible, since we do not only focus on software, but on education, too.
+
+We plan to have monthly board meetings, and publish meeting notes afterwards. Let us know if you are interested in joining the meetings!
+
+Greetings,
+Rita</description>
+<guid isPermaLink="false">943@http://squeakland.org/news/blog/</guid>
+<dc:subject></dc:subject>
+<dc:date>2010-05-06T14:38:44-08:00</dc:date>
+</item>
+<item>
+<title>Back from Haiti</title>
+<link>http://squeakland.org/news/blog/archive/000894.jsp</link>
+<description>Hello everyone,
+
+I&apos;m back from Haiti, both literally and figuratively.   Since the earthquake, nearly all of my time has been spent on the seven Etoys pilots that have started or will soon start in four different regions of Haiti. To follow our progress, read the Waveplace blog and see the two videos at http://waveplace.org/news/.   We&apos;ll be adding a great many photos in the next few days.  Connectivity was very bad, so we are only uploading photos now.
+
+While it may appear that Haiti has benefitted at the expense of Squeakland so far this year, I think quite the opposite is true.  The earthquake crisis has drawn Etoys into the center of a conversation that is now happening between many interested groups.  I&apos;ve basically spent the last three months talking, talking, talking.   Throughout, I have positioned Squeakland as a source of educational materials.  I&apos;ve depicted Etoys as a learning platform that is very appropriate for a country that has no money for school buildings or materials.  In short, I have been laying the groundwork for our fundraising efforts to finish the Squeakland courseware and to improve Etoys itself and its translations.
+
+Along the way, we have also created and tested a brand new set of Basic Etoys lessons, which  can be found here:
+
+
+http://waveplace.com/resources/tutorials/&apos;&gt;http://waveplace.com/resources/tutorials/
+
+We have lesson plans, handouts, and sample projects for each of these lessons, both in English and Haitian Creole.   Randy Caton has created a mathematics unit that we will use this month in Haiti.  We are also creating a Storytelling unit.  We will soon have a complete set of the Basic Etoys screencasts in Haitian Creole as well.
+
+Please take the 90 minutes needed to watch these videos and let me know what you think.   We will soon begin creating Spanish (and probably Portuguese) versions, so any feedback will have an immediate impact.  The Squeakland education team is currently deciding whether to include these lessons in the official Squeakland courseware, so positive comments will also help.  Send your comments to squeakland-at-squeakland.org.
+
+
+As for the business team, software team, and board, we will start regular meetings again starting today:
+
+* software team:   Mondays at 3pm ET (19:00 GMT) on #etoys on the freenode.net network (or chat.squeakland.org)
+
+* business team:   Wednesdays at 3pm ET (19:00 GMT) by Skype ... send me a private email if you wish to join the team
+
+* board meeting:  as soon as we can schedule it
+
+As always, the minutes or transcripts from all of these meetings will be available on our wiki or chat logs.
+
+
+If you&apos;d like to volunteer to help any of the teams, please let us know, either by responding here, or clicking &quot;contact&quot; on squeakland.org.
+
+Thanks everyone.  My humblest apologies for being unavailable over the last three months, but now that I am on the other side of the mountain, I can say with certainty that Squeakland will benefit from this unexpected detour.
+
+Take care,
+Tim</description>
+<guid isPermaLink="false">894@http://squeakland.org/news/blog/</guid>
+<dc:subject>community</dc:subject>
+<dc:date>2010-04-12T11:43:50-08:00</dc:date>
+</item>
+<item>
+<title>Squeakfest USA</title>
+<link>http://squeakland.org/news/blog/archive/000919.jsp</link>
+<description>We are happy to announce another opportunity for a face to face gathering and sharing of experiences and materials relative to the usage of Etoys.
+
+Squeakfest USA
+August 10, 11 and 12th
+Los Angeles, CA
+at the Faculty Center, UCLA Campus
+
+We&apos;ll have more info on the Squeakland website shortly, but until then, please save the date! Please forward this email and share with friends and colleagues. This will be a gathering of users and practitioners of Etoys -- teachers, researchers, and developers to share and learn. Newcomers to Etoys are most welcome too!
+
+We hope to see you in Los Angeles in August!</description>
+<guid isPermaLink="false">919@http://squeakland.org/news/blog/</guid>
+<dc:subject>community</dc:subject>
+<dc:date>2010-02-13T04:03:10-08:00</dc:date>
+</item>
+<item>
+<title>first book sprint is over</title>
+<link>http://squeakland.org/news/blog/archive/000941.jsp</link>
+<description>Our first book sprint was a great kick-off for our effort to write the Etoys Reference Manual. Here you can read how it went and how we plan to go on:
+
+We started the sprint on Monday, December 7th, with a first discussion about the structure, target audience and FLOSS Manuals. We started writing the first parts then and met again for an audio call on Tuesday. We had a longer discussion and agreed on the structure now available on the wiki page:
+
+http://wiki.squeakland.org/display/sq/Book+Sprint
+
+On the other days I had audio chats with Cherry, Randy and Stephen Thomas, mostly about upcoming issues. We used mostly Sykpe for that, sometimes the FLOSS Manuals chat and some things has been discussed by email.
+
+Where re we now? The manual isn&apos;t finished yet, but we made great progress! It is amazing how many things you can discover within Etoys. Randy had several discusison with Yoshiki about World Stethoscope, and now so much information, which previously only existed in the minds of some experts, is going to be available for everyone.
+
+The state of the book in FLOSS manuals related to the outline on the wiki:
+
+The &quot;Introduction&quot; and &quot;Getting Started&quot; chapters are not yet covered. Christine and Karl have been working on the User Interface chapter, namely Halo, Start Screen, Toolbar, Script Editor, Sketching and Viewer. The chapters aren&apos;t complete yet, and Overview, Projects, and Keyboard Shortcuts are missing.
+
+The &quot;Common Tiles&quot; chapter consists of a list of tiles to be covered with some explanations already done, it has all ballon help text, but more elaborate explanation is needed.
+
+The most work has been done in the &quot;Objects&quot; chapter, thanks to Randy, Cherry and Stephen. There is only one empty chapter, 5.1 World. The other chapters are in different stages, some only need images, some need more text and we didn&apos;t clean up the paragraph yet (regarding the description of PART PIECES).
+
+Regarding images: I&apos;m in contact with FLOSS manuals maintainer to have our images bulk uploaded. As soon as the images are on the server, we can start and add them to the chapters. After that, the first chapters are ready for reviewing. I think, the images are needed to do this, because they will help to understand the text. Reviewing should be done in regard to correctness and understanding. So there will be a mail to the list and all reviewers once we have the first chapters ready!
+
+For now, we will keep working on the manuals as our time allows. We are thinking about a second book sprint week in mid February or March, to finish the book.
+
+We already created some issues on the tracker about the bugs we discovered while playing with Etoys extensively. There are also still several questions in some chapters of the book. I will try to put them on a list very soon and put it on the wiki to get the answers.
+
+Finally, I have to say that I&apos;m very grateful to be part of this effort, it is wonderful to work together with all of you and the others who participated in the book sprint.
+</description>
+<guid isPermaLink="false">941@http://squeakland.org/news/blog/</guid>
+<dc:subject>book sprint</dc:subject>
+<dc:date>2009-12-18T04:39:37-08:00</dc:date>
+</item>
+<item>
+<title>please join us in the Etoys chat channel</title>
+<link>http://squeakland.org/news/blog/archive/000931.jsp</link>
+<description>We&apos;re in day two of our Etoys book sprint! Please spend time with us in the Etoys chat channel to help motivate everyone. Usually book sprints are done in person, so we&apos;re using our chat channel as a way to spend time together. It&apos;s a great way to meet other Etoys enthusiasts and help the writers at the same time.
+
+There are two ways to visit our chat channel . . .
+
+1) visit http://chat.squeakland.org and put your nickname in place of &quot;squeaker###&quot;. Simply type messages at the bottom of the screen and click Enter.
+
+2) download and install an IRC client, then visit the Freenode network (irc.freenode.net) and channel #etoys.
+
+More instructions are located at:
+
+http://wiki.squeakland.org/display/sq/IRC+chat+channel
+
+
+To help us with our book sprint, you can find out more here:
+
+http://wiki.squeakland.org/display/sq/Book+Sprint</description>
+<guid isPermaLink="false">931@http://squeakland.org/news/blog/</guid>
+<dc:subject>book sprint</dc:subject>
+<dc:date>2009-12-08T04:24:32-08:00</dc:date>
+</item>
+<item>
+<title>book sprint has started!</title>
+<link>http://squeakland.org/news/blog/archive/000930.jsp</link>
+<description>We just had our kick-off audio chat for the book sprint. It is wonderful to have so many great people working together on the Etoys manual!
+
+For now, we start writing at FLOSS Manuals Etoys .
+
+if you have any questions or want to discuss, try the IRC
+and start your question with @help ...
+
+In case everyone has finally gone to sleep, check out the book sprint page on our wiki
+or send an email to rita@squeakland.org
+
+We will have our next audio chat tomorrow, December 8 at 3 pm EST, 12 PST.</description>
+<guid isPermaLink="false">930@http://squeakland.org/news/blog/</guid>
+<dc:subject>news</dc:subject>
+<dc:date>2009-12-07T04:22:43-08:00</dc:date>
+</item>
+<item>
+<title>squeak if you like etoys button</title>
+<link>http://squeakland.org/news/blog/archive/000940.jsp</link>
+<description><![CDATA[Try adding this to your favorite webpage:
+
+&lt;iframe style="border: none" src="http://squeakland.org/squeakers/squeakerButton.jsp" width="270" height="143"&gt;&lt;/iframe&gt;
+
+It'll look and work like this:
+
+
+
+
+
+We'll be promoting this, along with it's static cousin at:
+
+http://squeakland.org/linking/
+
+Want to make sure the flash button (the first one) works on many browsers & websites before going public with it.
+
+And yes, I know Flash doesn't work in various places.  I'm asking to test this button in the places where Flash works (aka, anywhere you can see a YouTube video).
+]]></description>
+<guid isPermaLink="false">940@http://squeakland.org/news/blog/</guid>
+<dc:subject>community</dc:subject>
+<dc:date>2009-12-06T04:37:49-08:00</dc:date>
+</item>
+<item>
+<title>First Squeakland Book Sprint</title>
+<link>http://squeakland.org/news/blog/archive/000928.jsp</link>
+<description> Squeakland will have it&apos;s first Book Sprint to create a Reference Manual for Etoys! Please join us online during the week of December, 7 to December12, 2009. The book will serve as
+
+- the manual you can look up every part of Etoys,
+- the documentation of what we commit to support in Etoys and
+- the starting point for other, more elaborate materials.
+For writing we intend to use FLOSS Manuals.
+
+The manual will be available online (html and pdf format), and as a real book per print-on-demand. It will be licensed under MIT, so that we can also ship it within Etoys. We will work on it for a whole week from December, 7th until December, 12th. At this point, we are not planning a central in-person meeting, but the whole event will take place virtually on the internet. We will chat on an irc channel, and we will haveaudio chats every day to provide the opportunity for a talk. Of course, if you can organize a local meeting somewhere, that would be great!
+
+You can find more information on the wiki page.
+
+We will examine if we really need all the objects we currently have in the Etoys image. This documentation will be a list of all things our users can expect to be working fine in Etoys, we should leave out objects we will not support in terms of maintaining. That doesn&apos;t mean we will remove it from Etoys, but we will not include it in the documentation. So we really need developers to participate at least in the first discussion on December, 7 at 2 pm EST (which happens to be the time of the regular software meeting :) .
+
+To join the sprint, please put your name on the wiki or send me a message.</description>
+<guid isPermaLink="false">928@http://squeakland.org/news/blog/</guid>
+<dc:subject>news</dc:subject>
+<dc:date>2009-11-26T04:19:01-08:00</dc:date>
+</item>
+<item>
+<title>100 tickets for the next Etoys</title>
+<link>http://squeakland.org/news/blog/archive/000939.jsp</link>
+<description>We&apos;ve gone through the list of 190+ tickets in JIRA and reduced that to an even 100 for the next version of Etoys, expected June 2010.
+
+http://tracker.squeakland.org
+
+If you&apos;d like to champion particular issues, try voting in JIRA, which is now much more obvious because of the Popular Issues tab in JIRA.
+
+Simply click on the issue you want, the look to the left and click &quot;Vote for it&quot;. This will raise the issue in our awareness :)
+
+And if you have any new ideas, simple create the issue.
+
+You need a JIRA account to vote or create issues. (It&apos;s free and quick to sign up).
+</description>
+<guid isPermaLink="false">939@http://squeakland.org/news/blog/</guid>
+<dc:subject>Etoys</dc:subject>
+<dc:date>2009-11-24T04:36:43-08:00</dc:date>
+</item>
+<item>
+<title>showcase fixes</title>
+<link>http://squeakland.org/news/blog/archive/000938.jsp</link>
+<description>
+We had a real backlog of projects waiting to go live on the site. This weekend I tweaked several things and fixed a few bugs, and as a result, a slew of new ballots went out.
+
+Now every public project has at least one vote, which means they&apos;re all visible.
+
+We&apos;re up to 102 projects! Quite a selection. Lots of great stuff.
+
+http://squeakland.org/showcase/
+
+On a more technical note, I changed the &quot;re-ballot&quot; priority to make things more fair. As ballots expire, projects are picked to get new ballots. Before tonight I favored projects that were the oldest. I&apos;ve switched to favor projects with the fewest votes. Why? Because there&apos;s a real imbalance in the rank list . . . many with lower average points are at the top of the rankings because they&apos;re old (such as the Waveplace ones), simply because they have almost 10 voters apiece. Other, better, projects are still down the list because they haven&apos;t gotten as many voters yet, mostly because of the earlier priority.
+
+This switch in ballot priority should even the playing field a bit.
+
+Keep in mind, this system was designed for a bigger pool of rankers. We&apos;re a bit saturated now, so there&apos;s a bit of a logjam.
+
+Please consider helping us rank projects . . . it&apos;s quick, fun, and really helps. You *don&apos;t* need to be an educator, just someone who likes Etoys.
+
+Visit http://squeakland.org/action/signup.
+
+and click &quot;Yes, I&apos;d like to help rank projects!&quot;</description>
+<guid isPermaLink="false">938@http://squeakland.org/news/blog/</guid>
+<dc:subject>showcase</dc:subject>
+<dc:date>2009-11-09T04:35:18-08:00</dc:date>
+</item>
+<item>
+<title> Etoys 4 has been released!</title>
+<link>http://squeakland.org/news/blog/archive/000937.jsp</link>
+<description>Squeakland is proud to announce the release of Etoys 4, which you can now download from our website. Special thanks to the Squeakland software team, particularly Bert Freudenberg, Yoshiki Ohshima, and Scott Wallace for their tremendous efforts in the last month. Your hard work really shows!
+
+
+http://squeakland.org/download/&apos;&gt;
+http://squeakland.org/download/
+
+In our Fall newsletter, you&apos;ll find some thoughts by Scott Wallace, along with the Etoys 4 release notes which detail the changes you&apos;ll find. Of special interest is the new Squeakland Showcase. Everyone can now share their projects directly from Etoys to our website, where the Etoys community can then benefit from the many surprising and useful Etoys examples that are available. Please explore the showcase and share your projects with us. We want to hear from you!
+
+http://squeakland.org/news/newsletter/web.jsp?id=112
+
+Also, if you haven&apos;t signed our Squeakers list, consider adding your name. As I write this, more than 175 people from 35 countries have signed, which really shows the enthusiasm and reach of Etoys throughout the world.
+
+http://squeakland.org/squeakers/</description>
+<guid isPermaLink="false">937@http://squeakland.org/news/blog/</guid>
+<dc:subject>Etoys</dc:subject>
+<dc:date>2009-10-24T04:34:25-08:00</dc:date>
+</item>
+
+
+</channel>
+</rss>
